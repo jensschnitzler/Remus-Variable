@@ -1,0 +1,10 @@
+# This is the official list of project authors for copyright purposes.
+# This file is distinct from the CONTRIBUTORS.txt file.
+# See the latter for an explanation.
+# 
+# Names should be added to this file as:
+# Name or Organization <email address>
+
+Jens Schnitzler <hello@jensschnitzler.com>
+
+Also see MANIFEST-TeX-Gyre-Heros.txt for a list of authors and contributors of the original TeX Gyre Heros.
