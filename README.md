@@ -1,3 +1,6 @@
+![](/docs/assets/image/Cover-Gyre-Heros-Variable.png)
+
+
 # Gyre Heros Variable
 Gyre Heros Variable is a derivat of the sans-serif typeface TeX Gyre Heros published by GUST e-foundry. The goal is to combine the different static styles of Tex Gyre Heros into one variable font with axes for width, weight and slant.
 
