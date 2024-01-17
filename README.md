@@ -1,4 +1,4 @@
-![](/docs/assets/image/Cover-Remus-Variable.jpg)
+![](/docs/assets/image/Cover-Remus-Variable.png)
 
 
 # Remus Variable
