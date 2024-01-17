@@ -1,4 +1,4 @@
-![](/docs/assets/image/Cover-Gyre-Heros-Variable.png)
+![](/docs/assets/image/Cover-Remus-Variable.png)
 
 
 # Remus Variable
