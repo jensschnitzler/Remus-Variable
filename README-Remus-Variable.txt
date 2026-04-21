@@ -10,5 +10,5 @@ License:
   % This work has the LPPL maintenance status "maintained".
   % The Current Maintainer of this work is Jens Schnitzler.
   % This work consists of the files listed in the
-  % MANIFEST-Gyre-Heros-Variable.txt file.
+  % MANIFEST-Remus-Variable.txt file.
 
