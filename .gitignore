@@ -1,10 +1,17 @@
-# file manager empty files
+# File manager
 .DS_Store
 .empty
 .sparkleshare
-# temporary files
+
+# Glyphs temporary files
 *(Autosaved).glyphs
 *.vfbak
 
-# Proof
+# Node
+node_modules/
+
+# Sass source maps
+docs/assets/css/main.css.map
+
+# Proof (binary InDesign files)
 proof
