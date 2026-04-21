@@ -21,8 +21,403 @@
 <header>
 	<div class="content">
 		<h1>Remus Variable</h1>
+		<nav>
+			<ul>
+				<li><a href="#about">About</a></li>
+				<li><a href="#characters">Characters</a></li>
+				<li><a href="#download">Download</a></li>
+			</ul>
+		</nav>
 	</div>
 </header>
+
+
+<!-- Variable weight animation -->
+<section>
+	<div class="content">
+		<div class="large-type variable-animation">
+			<div class="text">Remus</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- Interactive weight switcher -->
+<section>
+	<div class="content">
+		<span class="label">Weight</span>
+		<div class="large-type weights">
+			<div class="text">Remus</div>
+			<div class="switch-container">
+				<div data-weight="300"><span>Light</span></div>
+				<div data-weight="400" class="active"><span>Regular</span></div>
+				<div data-weight="700"><span>Bold</span></div>
+				<div data-weight="900"><span>Black</span></div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- About -->
+<section id="about">
+	<div class="content">
+		<div class="about">
+			<div class="title">About</div>
+			<div class="author">
+				Jens Schnitzler<br>
+				2023–2024
+			</div>
+			<div class="description">Remus Variable is an open-source variable sans-serif derived from TeX Gyre Heros, which is based on URW Nimbus Sans L — the free equivalent of Helvetica. The static styles of TeX Gyre Heros are combined into a single variable font with three axes: weight, width, and slant.</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- Width axis — condensed vs. normal -->
+<section>
+	<div class="content">
+		<span class="label">Width</span>
+		<div class="columns">
+			<div class="column">
+				<div style="font-stretch: 75%;">ABCDEF<br>GHIJKL<br>MNOPQR<br>STUVWX<br>YZ</div>
+			</div>
+			<div class="column">
+				<div>ABCDEF<br>GHIJKL<br>MNOPQR<br>STUVWX<br>YZ</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- Waterfall — four weights -->
+<section>
+	<div class="content">
+		<span class="label">Styles</span>
+		<div class="waterfall">
+			<div>
+				<span class="mobile">Bold</span>
+				<span>The quick brown fox jumps over the lazy dog — 1234567890</span>
+				<span class="mobile">Bold</span>
+				<span>Sphinx of black quartz, judge my vow — 1234567890</span>
+				<span class="mobile">Medium</span>
+				<span>The quick brown fox jumps over the lazy dog — 1234567890</span>
+				<span class="mobile">Medium</span>
+				<span>Sphinx of black quartz, judge my vow — 1234567890</span>
+				<span class="mobile">Regular</span>
+				<span>The quick brown fox jumps over the lazy dog — 1234567890</span>
+				<span class="mobile">Regular</span>
+				<span>Sphinx of black quartz, judge my vow — 1234567890</span>
+				<span class="mobile">Light</span>
+				<span>The quick brown fox jumps over the lazy dog — 1234567890</span>
+				<span class="mobile">Light</span>
+				<span>Sphinx of black quartz, judge my vow — 1234567890</span>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- Text specimens at three sizes -->
+<section>
+	<div class="content">
+		<span class="label">Text</span>
+		<div class="paragraphs">
+			<div class="text">
+				<div class="paragraph large">
+					<div>TeX Gyre Heros is based on URW Nimbus Sans L, kindly released by URW++ Design and Development Inc. under GFL. The Vietnamese glyphs were added by Han The Thanh. Remus Variable combines the static styles of TeX Gyre Heros into a single file with axes for weight, width, and slant.</div>
+				</div>
+				<div class="paragraph medium">
+					<div>URW Nimbus Sans L is based on Helvetica, designed by Max Miedinger with Eduard Hoffmann at the Haas Type Foundry in 1957. Helvetica became one of the most widely used sans-serif typefaces in the world, valued for its neutrality and breadth of weights.</div>
+				</div>
+				<div class="paragraph small">
+					<div>Remus Variable is released under the GUST Font License. You may use, study, modify, and redistribute this font freely, including in commercial work. Derived fonts must be released under the same license and must be renamed to avoid confusion with the original.</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- OpenType features — proportional figures interactive demo -->
+<section>
+	<div class="content">
+		<span class="label">Proportional Figures</span>
+		<div class="large-type opentype">
+			<div class="text"><span>1</span><span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>0</span></div>
+			<div class="switch-container">
+				<div data-features="on"><span>Proportional</span></div>
+				<div data-features="off"><span>Tabular</span></div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- OpenType features — comparison grid -->
+<section class="ot-section">
+	<div class="content">
+		<div class="ot-container">
+
+			<div class="ot">
+				<div class="ot-content">
+					<span class="label">Proportional Figures</span>
+					<div class="ot-string">
+						<span>1234567890</span>
+					</div>
+					<div class="ot-string" style="font-feature-settings: 'pnum' 1;">
+						<span>1234567890</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="ot">
+				<div class="ot-content">
+					<span class="label">Lining Figures</span>
+					<div class="ot-string">
+						<span>0123456789</span>
+					</div>
+					<div class="ot-string" style="font-feature-settings: 'lnum' 1;">
+						<span>0123456789</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="ot">
+				<div class="ot-content">
+					<span class="label">Tabular Figures</span>
+					<div class="ot-string">
+						<span>1 111 1111</span>
+					</div>
+					<div class="ot-string" style="font-feature-settings: 'tnum' 1;">
+						<span>1 111 1111</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="ot">
+				<div class="ot-content">
+					<span class="label">Kerning</span>
+					<div class="ot-string" style="font-kerning: none;">
+						<span>AV WA To Ty</span>
+					</div>
+					<div class="ot-string">
+						<span>AV WA To Ty</span>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+<!-- Character set -->
+<section id="characters">
+	<div class="character-set">
+
+		<div class="character-preview">
+			<div>
+				<div class="character" id="character-preview">
+					<span class="baseline"></span>
+					<span class="x-height"></span>
+					<span class="ascender"></span>
+					<span class="descender"></span>
+					<div class="character-content">
+						<div class="character">A</div>
+					</div>
+				</div>
+				<div id="character-info">
+					<span class="name">Capital A</span>
+					<span class="unicode">U+0041</span>
+				</div>
+			</div>
+		</div>
+
+		<div class="character-list">
+			<span class="label">Characters</span>
+
+			<div class="character-group">
+				<div>
+					<span data-name="Capital A" data-unicode="U+0041">A</span>
+					<span data-name="Capital B" data-unicode="U+0042">B</span>
+					<span data-name="Capital C" data-unicode="U+0043">C</span>
+					<span data-name="Capital D" data-unicode="U+0044">D</span>
+					<span data-name="Capital E" data-unicode="U+0045">E</span>
+					<span data-name="Capital F" data-unicode="U+0046">F</span>
+					<span data-name="Capital G" data-unicode="U+0047">G</span>
+					<span data-name="Capital H" data-unicode="U+0048">H</span>
+					<span data-name="Capital I" data-unicode="U+0049">I</span>
+					<span data-name="Capital J" data-unicode="U+004A">J</span>
+					<span data-name="Capital K" data-unicode="U+004B">K</span>
+					<span data-name="Capital L" data-unicode="U+004C">L</span>
+					<span data-name="Capital M" data-unicode="U+004D">M</span>
+					<span data-name="Capital N" data-unicode="U+004E">N</span>
+					<span data-name="Capital O" data-unicode="U+004F">O</span>
+					<span data-name="Capital P" data-unicode="U+0050">P</span>
+					<span data-name="Capital Q" data-unicode="U+0051">Q</span>
+					<span data-name="Capital R" data-unicode="U+0052">R</span>
+					<span data-name="Capital S" data-unicode="U+0053">S</span>
+					<span data-name="Capital T" data-unicode="U+0054">T</span>
+					<span data-name="Capital U" data-unicode="U+0055">U</span>
+					<span data-name="Capital V" data-unicode="U+0056">V</span>
+					<span data-name="Capital W" data-unicode="U+0057">W</span>
+					<span data-name="Capital X" data-unicode="U+0058">X</span>
+					<span data-name="Capital Y" data-unicode="U+0059">Y</span>
+					<span data-name="Capital Z" data-unicode="U+005A">Z</span>
+				</div>
+			</div>
+
+			<div class="character-group">
+				<div>
+					<span data-name="Small a" data-unicode="U+0061">a</span>
+					<span data-name="Small b" data-unicode="U+0062">b</span>
+					<span data-name="Small c" data-unicode="U+0063">c</span>
+					<span data-name="Small d" data-unicode="U+0064">d</span>
+					<span data-name="Small e" data-unicode="U+0065">e</span>
+					<span data-name="Small f" data-unicode="U+0066">f</span>
+					<span data-name="Small g" data-unicode="U+0067">g</span>
+					<span data-name="Small h" data-unicode="U+0068">h</span>
+					<span data-name="Small i" data-unicode="U+0069">i</span>
+					<span data-name="Small j" data-unicode="U+006A">j</span>
+					<span data-name="Small k" data-unicode="U+006B">k</span>
+					<span data-name="Small l" data-unicode="U+006C">l</span>
+					<span data-name="Small m" data-unicode="U+006D">m</span>
+					<span data-name="Small n" data-unicode="U+006E">n</span>
+					<span data-name="Small o" data-unicode="U+006F">o</span>
+					<span data-name="Small p" data-unicode="U+0070">p</span>
+					<span data-name="Small q" data-unicode="U+0071">q</span>
+					<span data-name="Small r" data-unicode="U+0072">r</span>
+					<span data-name="Small s" data-unicode="U+0073">s</span>
+					<span data-name="Small t" data-unicode="U+0074">t</span>
+					<span data-name="Small u" data-unicode="U+0075">u</span>
+					<span data-name="Small v" data-unicode="U+0076">v</span>
+					<span data-name="Small w" data-unicode="U+0077">w</span>
+					<span data-name="Small x" data-unicode="U+0078">x</span>
+					<span data-name="Small y" data-unicode="U+0079">y</span>
+					<span data-name="Small z" data-unicode="U+007A">z</span>
+				</div>
+			</div>
+
+			<div class="character-group">
+				<div>
+					<span data-name="Zero" data-unicode="U+0030">0</span>
+					<span data-name="One" data-unicode="U+0031">1</span>
+					<span data-name="Two" data-unicode="U+0032">2</span>
+					<span data-name="Three" data-unicode="U+0033">3</span>
+					<span data-name="Four" data-unicode="U+0034">4</span>
+					<span data-name="Five" data-unicode="U+0035">5</span>
+					<span data-name="Six" data-unicode="U+0036">6</span>
+					<span data-name="Seven" data-unicode="U+0037">7</span>
+					<span data-name="Eight" data-unicode="U+0038">8</span>
+					<span data-name="Nine" data-unicode="U+0039">9</span>
+					<span data-name="Dollar Sign" data-unicode="U+0024">$</span>
+					<span data-name="Euro Sign" data-unicode="U+20AC">€</span>
+					<span data-name="Pound Sign" data-unicode="U+00A3">£</span>
+					<span data-name="Yen Sign" data-unicode="U+00A5">¥</span>
+					<span data-name="Percent Sign" data-unicode="U+0025">%</span>
+					<span data-name="Per Mille Sign" data-unicode="U+2030">‰</span>
+				</div>
+			</div>
+
+			<div class="character-group">
+				<div>
+					<span data-name="Full Stop" data-unicode="U+002E">.</span>
+					<span data-name="Comma" data-unicode="U+002C">,</span>
+					<span data-name="Colon" data-unicode="U+003A">:</span>
+					<span data-name="Semicolon" data-unicode="U+003B">;</span>
+					<span data-name="Exclamation Mark" data-unicode="U+0021">!</span>
+					<span data-name="Question Mark" data-unicode="U+003F">?</span>
+					<span data-name="Hyphen-Minus" data-unicode="U+002D">-</span>
+					<span data-name="En Dash" data-unicode="U+2013">–</span>
+					<span data-name="Em Dash" data-unicode="U+2014">—</span>
+					<span data-name="Left Parenthesis" data-unicode="U+0028">(</span>
+					<span data-name="Right Parenthesis" data-unicode="U+0029">)</span>
+					<span data-name="Left Square Bracket" data-unicode="U+005B">[</span>
+					<span data-name="Right Square Bracket" data-unicode="U+005D">]</span>
+					<span data-name="Left Curly Bracket" data-unicode="U+007B">{</span>
+					<span data-name="Right Curly Bracket" data-unicode="U+007D">}</span>
+					<span data-name="Solidus" data-unicode="U+002F">/</span>
+					<span data-name="Ampersand" data-unicode="U+0026">&amp;</span>
+					<span data-name="Commercial At" data-unicode="U+0040">@</span>
+					<span data-name="Number Sign" data-unicode="U+0023">#</span>
+					<span data-name="Asterisk" data-unicode="U+002A">*</span>
+					<span data-name="Plus Sign" data-unicode="U+002B">+</span>
+					<span data-name="Equals Sign" data-unicode="U+003D">=</span>
+					<span data-name="Copyright Sign" data-unicode="U+00A9">©</span>
+					<span data-name="Registered Sign" data-unicode="U+00AE">®</span>
+					<span data-name="Trade Mark Sign" data-unicode="U+2122">™</span>
+					<span data-name="Degree Sign" data-unicode="U+00B0">°</span>
+				</div>
+			</div>
+
+			<div class="character-group">
+				<div>
+					<span data-name="Capital A with Grave" data-unicode="U+00C0">À</span>
+					<span data-name="Capital A with Acute" data-unicode="U+00C1">Á</span>
+					<span data-name="Capital A with Circumflex" data-unicode="U+00C2">Â</span>
+					<span data-name="Capital A with Tilde" data-unicode="U+00C3">Ã</span>
+					<span data-name="Capital A with Diaeresis" data-unicode="U+00C4">Ä</span>
+					<span data-name="Capital A with Ring" data-unicode="U+00C5">Å</span>
+					<span data-name="Capital AE" data-unicode="U+00C6">Æ</span>
+					<span data-name="Capital C with Cedilla" data-unicode="U+00C7">Ç</span>
+					<span data-name="Capital E with Acute" data-unicode="U+00C9">É</span>
+					<span data-name="Capital N with Tilde" data-unicode="U+00D1">Ñ</span>
+					<span data-name="Capital O with Diaeresis" data-unicode="U+00D6">Ö</span>
+					<span data-name="Capital O with Stroke" data-unicode="U+00D8">Ø</span>
+					<span data-name="Capital U with Diaeresis" data-unicode="U+00DC">Ü</span>
+					<span data-name="Capital Thorn" data-unicode="U+00DE">Þ</span>
+					<span data-name="Small Sharp S" data-unicode="U+00DF">ß</span>
+					<span data-name="Small a with Grave" data-unicode="U+00E0">à</span>
+					<span data-name="Small a with Acute" data-unicode="U+00E1">á</span>
+					<span data-name="Small a with Circumflex" data-unicode="U+00E2">â</span>
+					<span data-name="Small a with Tilde" data-unicode="U+00E3">ã</span>
+					<span data-name="Small a with Diaeresis" data-unicode="U+00E4">ä</span>
+					<span data-name="Small a with Ring" data-unicode="U+00E5">å</span>
+					<span data-name="Small ae" data-unicode="U+00E6">æ</span>
+					<span data-name="Small c with Cedilla" data-unicode="U+00E7">ç</span>
+					<span data-name="Small e with Acute" data-unicode="U+00E9">é</span>
+					<span data-name="Small n with Tilde" data-unicode="U+00F1">ñ</span>
+					<span data-name="Small o with Diaeresis" data-unicode="U+00F6">ö</span>
+					<span data-name="Small o with Stroke" data-unicode="U+00F8">ø</span>
+					<span data-name="Small u with Diaeresis" data-unicode="U+00FC">ü</span>
+					<span data-name="Small y with Diaeresis" data-unicode="U+00FF">ÿ</span>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+
+<!-- Download -->
+<section id="download">
+	<div class="content">
+		<span class="label">Download</span>
+		<div class="download">
+			<div class="links">
+				<a href="../fonts/RemusVariableVF.woff2">WOFF2</a>
+				<a href="../fonts/RemusVariableVF.woff">WOFF</a>
+				<a href="../fonts/RemusVariableVF.ttf">TTF</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<footer>
+	<div class="column">
+		<p>Remus Variable</p>
+		<p>Version 0.1<br>2023–2024</p>
+	</div>
+	<div class="column">
+		<p>License</p>
+		<p><a href="../GUST-FONT-LICENSE.txt">GUST Font License</a></p>
+	</div>
+	<div class="column">
+		<p>Based on <a href="https://www.gust.org.pl/projects/e-foundry/tex-gyre/heros">TeX Gyre Heros</a> by GUST&nbsp;e-foundry, which is based on URW Nimbus Sans&nbsp;L released by URW++ under GFL. Vietnamese glyphs by Han&nbsp;The&nbsp;Thanh. Variable font by <a href="https://github.com/jensschnitzler/Remus-Variable">Jens&nbsp;Schnitzler</a>.</p>
+	</div>
+</footer>
 
 
 <script src="assets/js/main.js"></script>
