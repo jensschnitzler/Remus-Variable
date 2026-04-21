@@ -249,6 +249,28 @@ section {
 	}
 }
 
+.slant {
+	.text {
+		font-style: oblique 0deg;
+		transition: font-style 300ms;
+	}
+
+	.switch-container {
+		div {
+			width: 25%;
+			flex: 0 0 25%;
+
+			&:nth-child(2), &:nth-child(3) {
+				justify-content: center;
+			}
+
+			&:last-child {
+				justify-content: flex-end;
+			}
+		}
+	}
+}
+
 .large-type.opentype {
 	.text {
 		font-family: 'Remus Variable';
